@@ -1,0 +1,134 @@
+
+drop database login;
+
+CREATE DATABASE login;
+
+USE login;
+
+
+CREATE TABLE login (
+    user VARCHAR(50) PRIMARY KEY,
+    pass VARCHAR(50),
+    year INT NOT NULL
+);
+
+insert into login values('suraj','123',2025);
+
+create table master
+(
+bid int primary key,
+name varchar(100),
+desi varchar(50),
+type varchar(50),
+mob long,
+email varchar(100)
+);
+
+
+insert into master values(1,' Dr. Richa Tiwari Diwan ','Principal','Principal',8141478790,'richa.diwan1276@gmail.com');
+insert into master values(3,'Mrs. Vanita Sunil Kasture','Vice Principal ','Vice Principal ',9284169116,'vanita.kasture2635@gmail.com');
+insert into master values(8,'Mrs. Shital Nitin Wayal','Vice Principal ','Vice Principal ',9823537045,'sheetalwayal111@gmail.com');
+insert into master values(4,'Mrs. Supriya Ajit Jangam','Drawing Teacher','TGT',9860419516,'supriyajangam.sj@gmail.com');
+insert into master values(5,'Miss. Aarti Ramesh Dhavalikar','Primary Teacher','TGT',9881026070,'aartid1972@gmail.com');
+insert into master values(7,'Mrs. Kishori Dipak Mahamuni','Primary Teacher','TGT',7038168561,'kishorimahamuni800@gmail.com');
+insert into master values(9,'Mrs.Pallavi Satish Karade','Primary Teacher','TGT',9423010270,'karadepallavi@gmail.com');
+insert into master values(10,'Mrs. Meenakshi Guruprasad Kamat','Primary Teacher','TGT',9284487348,'kamatmeenakshi26@gmail.com');
+insert into master values(11,'Mrs.Namrata Laxmikant Babhale','Primary Teacher','TGT',9011082736,'namratababhale@gmail.com');
+insert into master values(12,'Mr.Praphulla  Ramesh Shelke','Primary Teacher','TGT',8668708826,'praphullashelake@gmail.com');
+insert into master values(13,'Miss.Sejal Narendrakumar Rathod','Primary Teacher','PRT',8830464129,'rathodsejal9975@gmail.com');
+insert into master values(14,'Mrs.Neha Samuel Gaikwad','Primary Teacher','PRT',9689223585,'nehagaikwadneha407@gmail.com');
+insert into master values(15,'Mr.Vishal Dnyaneshwar Baravkar','Primary Teacher','TGT',9850457415,'vishalbaravkar555@gmail.com');
+insert into master values(17,'Mrs.Aarati Vaibhav Ekadpatil','Sport Teacher','P.E.',9822387860,'aarti08ekadpatil@gmail.com');
+insert into master values(16,'Mrs.Deepali Sachin Sonna','Primary Teacher','TGT',9527811160,'deepalisonna666@gmail.com');
+insert into master values(19,'Mrs.Varsha Nandkumar Narute','Primary Teacher','TGT',7620743023,'varshanarute@gmail.com');
+insert into master values(20,'Mrs. Diksha Devendra Malgundkar','Primary Teacher','PRT',9309988477,'dikshamalgundkar13@gmail.com');
+insert into master values(21,'Mrs. Seema Sanjay Doshi','Primary Teacher','PRT',9689333758,'seemadoshi328@gmail.com');
+insert into master values(22,'Mrs. Dhanshri Rakesh Deore','Primary Teacher','TGT',9225734199,'dbranaware@gmail.com');
+insert into master values(28,'Mrs.Anuradha Prashant Bhingare','Primary Teacher','PRT',7397964700,'anuradhabhigare700@gmail.com');
+insert into master values(23,'Mr. Rahul Vitthal Lonkhande','Sport Teacher','P.E.',9623925221,'rahullokhande4545@gmail.com');
+insert into master values(27,'Mrs. Anita Pankaj Ahire','Primary Teacher','TGT',8669564740,'anitaahire1984@gmail.com');
+insert into master values(29,'Mrs.Vrushali Viraj Patil','Primary Teacher','PRT',7709520053,'patilvrushali4671@gmail.com');
+insert into master values(31,'Mr.Deepak Maruti Gadhave','Primary Teacher','PRT',9767132853,'dgadhave70@gmail.com');
+insert into master values(32,'Mrs.Shital Ravindra Mane','Primary Teacher','PRT',7020955308,'shitalmane19nov@gmail.com');
+insert into master values(35,'Mr. Dattatray Dhanaji Bhandwalkar','Primary Teacher','TGT',9604816735,'dattatraybhandwalkar63@gmail.com');
+insert into master values(36,'Mr. Mukinda Malhari Jagtap','Primary Teacher','TGT',8600559485,'mukindajagtap@gmail.com');
+insert into master values(39,'Mrs. Pushpa Ishwar Zagade','Primary Teacher','TGT',8805622107,'pushpazagade60@gmail.com');
+insert into master values(37,'Mr. Sandeep Balasaheb Narnavar','Primary Teacher','TGT',9604424689,'sandipnarnawar2@gmail.com');
+insert into master values(30,'Miss. Sarika Dattu Badhe','Sepeical Educatior Counsellor','Consellor + Special Educators',9730803309,'sarikawagh1424@gmail.com');
+insert into master values(42,'Mrs. Arti Shripal Kate ','Primary Teacher','TGT',9130664438,'katearti25@gmail.com');
+insert into master values(41,'Mrs. Sima Dnyandev Babar','Primary Teacher','PRT',9766416416,'babarseema46@gmail.com');
+insert into master values(44,'Mr. Anupam Shankar Nikalje','Primary Teacher','TGT',9970130236,'anupamnikalje5@gmail.com');
+insert into master values(26,'Mr. Nilesh Rajaram Chavan','Libraian  ','Libraian  ',9096188408,'nilsarthak@gmail.com');
+insert into master values(45,'Miss.Durga Ghanashyam Rawat','Primary Teacher','TGT',9130540699,'durgarawat2@gmail.com');
+insert into master values(46,'Mr. Sagar Popat More','Primary Teacher','TGT',8411993300,'sagarmore01@gmail.com');
+insert into master values(47,'Mrs. Swapnali Upendra Galande','Primary Teacher','PRT',8888882037,'swapnali.kumthkar@gmail.com');
+insert into master values(49,'Mrs. Sarika Mahendra Ghadge','Primary Teacher','PRT',9970318091,'sarikaghadge91@gmail.com');
+insert into master values(48,'Mr. Mahesh Vitthal Lonkar','Primary Teacher','PRT',7397940011,'maheshv.lonkar@gmail.com');
+insert into master values(51,'Mrs. Sarika Indrabhan Lavhe','Primary Teacher','TGT',9730414499,'sarikalavhe87@gmail.com');
+insert into master values(55,'Mrs. Manisha Hanumant Jagtap','Primary Teacher','PRT',8379869961,'mkharade784@gmail.com');
+insert into master values(57,'Miss. Rekha Puna Dhangar','Sport Teacher','PE',8459877748,'rekha251295@gmail.com');
+insert into master values(60,'Mrs. Pornima PrahladPatil','Primary Teacher','PRT',7709350929,'pournimaanekant@gmail.com');
+insert into master values(59,'Mrs. Priyanka Amit Nale','Primary Teacher','PRT',8208579915,'priyanmi03789@gmail.com');
+insert into master values(63,'Mrs. Sunita Bhima Ingale','Primary Teacher','PRT',8378918247,'ingalesunita5489@gmail.com');
+insert into master values(65,'Mr. Vishal  Mohan Hadambar','Sport Teacher','PE',8390112352,'vishal.habadar@gmail.com');
+insert into master values(66,'Mrs. Suvarna Raviraj Jamdade','Music Teacher ','PRT',9921007328,'suvarnajamdade28@gmail.com');
+insert into master values(67,'Mrs. Amibika Singh','Primary Teacher','PRT',7767911200,'yenisingh@gmail.com');
+insert into master values(69,'Mr. Akshay Sudhakar Shinde','Music Teacher ','PRT',9762639012,'akshays11095@gmail.com');
+insert into master values(68,'Mr. Ajit Dayaram Bhosale ','Primary Teacher','TGT',9673002932,'ajitraobhosale6828@gmail.com');
+insert into master values(202,'Miss. Priyadarshani Shirish  Gade','Pre-Primary Teacher','NTT',9730695969,'priyadarshani.1906@gmail.com');
+insert into master values(203,'Miss. Pallavi Vasantrao Phalke','Pre-Primary Teacher','NTT',9604844493,'pallaviphalke111@gmail.com');
+insert into master values(204,'Miss.Rohini Namdeo Gadekar','Pre-Primary Teacher','NTT',9561629818,'gadekarrohini22@gmail.com');
+insert into master values(205,'Mrs.Ankita Anant Pawar','Pre-Primary Teacher','NTT',8605757597,'pawarankita1980@gmail.com');
+insert into master values(207,'Mrs.Savita Sanjay Deshpande','Pre-Primary Teacher','NTT',9284484895,'deshpandesavita1968@gmail.com');
+insert into master values(208,'Miss. Priyanka Ravindra Kale','Pre-Primary Teacher','NTT',8600805318,'priyankavumdale91@gmail.com');
+insert into master values(210,'Mrs. Nikita Rikul Soni','Pre-Primary Teacher','NTT',9834512979,'nikirikisoni@gmail.com');
+insert into master values(211,'Mrs.  Renuka Ravindra Kelgandre','Pre-Primary Teacher','NTT',8888112541,'kelgandrerenuka290@gmail.com');
+insert into master values(215,'Mrs.  Shital Amit Shah','Pre-Primary Teacher','NTT',9623882356,'Shitalshah.as75@gmail.com');
+insert into master values(218,'Mrs. Sheetal Dhananjay Kale','Pre- Primary Teacher ','NTT',9763020248,'kaleshital2005@gmail.com');
+insert into master values(219,'Mrs. Pooja Hemant Gaikwad','Pre-Primary Teacher','NTT',9373806608,'pg117093@gmail.com');
+insert into master values(221,'Mrs. Nita  Rajendra Bhosale','Pre-Primary Teacher','NTT',9767173650,'neetabhosale329@gmail.com');
+insert into master values(224,'Mrs. Sheetal Ajit Ransing ','Pre-Primary Teacher','NTT',9209377070,'sheetalranging@gmail.com');
+insert into master values(226,'Mrs. Hemlata Deepak Phaltankar','Pre-Primary Teacher','NTT',9404640648,'phaltankarhemlata@gmail.com');
+insert into master values(227,'Mrs. Jayshri Bhausaheb Bhosale','Pre-Primary Teacher','NTT',7588472009,'jayashribhosale2019@gmail.com');
+insert into master values(303,'Mr. Ravindra  Ramchandra Masal','Office Staff','Jr.Clerk',9822755075,'ravindramasal060885@gmail.com');
+insert into master values(302,'Mrs. Anjali Atul Utpat','Office Staff','Clerk',95039337756,'anjali2086@rediffmail.com');
+insert into master values(304,'Mrs. Ashwini Vishal Chavan','Office Staff','Clerk',9552844812,'avjchavan@gmail.com');
+insert into master values(307,'Mr. Ramesh Raosaheb Munde','Office Staff','Clerk',9822570356,'rameshmunde25@gmail.com');
+insert into master values(306,'Mrs. Swati Prashant Gaikwad','Office Staff','Receptionist',7391031717,'swatijadhav7575@gmail.com');
+insert into master values(308,'Mr. Mahaveer Maruti Khude','Office Staff','IT Person',9766668908,'accessuweb@gmail.com');
+insert into master values(351,'Mr. Atul Balaso Pawar','Peon','',9604884313,'');
+insert into master values(361,'Mr.Rohit Baban Chavan','Peon','',9284108149,'');
+insert into master values(364,'Mrs. Ashok Babaso Kashid','Peon','',7620860030,'');
+insert into master values(365,'Mr. Gourav  Machhindra Wayase','Peon','',9112472350,'');
+insert into master values(353,'Mrs. Kavita Rambhau Shinde ','Mavashi','',9921862831,'');
+insert into master values(354,'Mrs. Rupali Mahavir Adavane','Mavashi','',8767555126,'');
+insert into master values(356,'Mrs. Sheela Vijay Jonjal','Mavashi','',9923806952,'');
+insert into master values(357,'Mrs. Anuradha Ritesh Gaikwad','Mavashi','',7378678483,'');
+insert into master values(355,'Mrs. Vaishali Nemchand Gaikwad','Mavashi','',86238477225,'');
+insert into master values(358,'Mrs. Subhadra Kisan Sarade','Mavashi','',9730318327,'');
+insert into master values(359,'Mrs. Sunanda Balu Sonawane','Mavashi','',8623847725,'');
+insert into master values(363,'Mrs. Varsha Ramchandra Jagtap','Mavashi','',9822517161,'');
+insert into master values(362,'Mrs. Supriya Vikas Sarode','Mavashi','',9579598280,'');
+
+
+
+
+
+
+CREATE TABLE leavemaster (
+    lev_id INT AUTO_INCREMENT PRIMARY KEY,
+    lev_app_date DATE,
+    lev_start_date DATE,
+    lev_end_date DATE,
+    lev_type VARCHAR(20),
+    lev_days FLOAT,
+    lev_reason VARCHAR(20),
+    lev_remark VARCHAR(20),
+    bid INT,
+    FOREIGN KEY (bid) REFERENCES master (bid)
+);
+
+
+select * from master;
+ select* from login;
+ 
